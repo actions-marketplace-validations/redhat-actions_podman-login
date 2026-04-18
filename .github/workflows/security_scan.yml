@@ -13,10 +13,10 @@ jobs:
     name: Scan project vulnerability with CRDA
     steps:
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Setup Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v6
         with:
           node-version: '24'
 
